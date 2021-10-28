@@ -1,6 +1,4 @@
-const jquery360 = require("./jquery-3.6.0");
-
-jquery360("h1").click(function(){
+jQuery("h1").click(function(){
   alert("This is a heading.");
 });
 
