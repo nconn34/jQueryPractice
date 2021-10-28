@@ -1,13 +1,13 @@
-jQuery(document).ready(function() {
-  jQuery("h1").click(function(){
-    alert("This is a heading.");
+$(document).ready(function() {
+  $("h1").click(function(){
+    $("This is a heading.");
   });
 
-  jQuery("p").click(function(){
-    alert("This is a paragraph.");
+  $("p").click(function(){
+    $("This is a paragraph.");
   });
 
-  jQuery("img").click(function(){
-    alert("This is an image.");
+  $("img").click(function(){
+    $("This is an image.");
   });
 });
